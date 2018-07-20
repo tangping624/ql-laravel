@@ -1,0 +1,22 @@
+body {padding-top: 50px; font: 14px/28px "Microsoft Yahei", "Tahoma", "SimSun"; padding-left: 200px; padding-bottom: 40px;}
+
+.main-content {margin-top: 20px;}
+
+.sidenav {background: #222; height: 100%; width: 200px; position: fixed; left: 0px; top: 50px;}
+.sidenav .menu {padding: 0px; margin: 20px 0px 0px 0px;}
+.sidenav .menu li {border: 0px; padding: 0px; margin-left: 20px; margin-top: 3px; background: #222; font-size: 16px; list-style: none;}
+.sidenav .menu li a, .sidenav .menu li span {padding: 5px 20px; display: block; color: #eee; text-decoration: none;}
+.sidenav .menu li:hover {background: #666;}
+.sidenav .menu li.active {font-weight: bold; background: #fff;}
+.sidenav .menu li.active a, .sidenav .menu li.active span {color: #333;}
+.sidenav .menu li.divider {margin: 8px 0 8px 00px; border-top: 1px solid #666;}
+.sidenav .menu li.active.sub {margin-top: 0; padding-left: 34px; background-image: url(/images/sub-polyline.png); background-repeat: no-repeat; background-position: 12px 0;}
+
+.modal p {margin: 0; height: 28px;}
+.modal .help-block {margin: 0; display: none;}
+.modal .has-error .help-block {display: block;}
+
+.panel-heading .btn-xs {margin-top: 3px;}
+
+.table {margin: 0;}
+.pagination {margin: 10px 0;}

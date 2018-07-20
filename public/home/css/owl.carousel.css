@@ -1,0 +1,20 @@
+.owl-carousel .owl-wrapper:after{content: ".";display: block;clear: both;visibility: hidden;line-height: 0;height: 0;}
+/* display none until init*/
+.owl-carousel{display: none;position: relative;width: 100%;-ms-touch-action: pan-y; background:#fff; border:1px solid #e4e4e4; border-width:1px 0; margin-bottom:0.5em;}
+.owl-carousel .owl-wrapper{display: none;position: relative;-webkit-transform: translate3d(0px, 0px, 0px);}
+.owl-carousel .owl-wrapper-outer{overflow: hidden;position: relative;width: 100%;}
+.owl-carousel .owl-wrapper-outer.autoHeight{-webkit-transition: height 500ms ease-in-out;-moz-transition: height 500ms ease-in-out;-ms-transition: height 500ms ease-in-out;-o-transition: height 500ms ease-in-out;transition: height 500ms ease-in-out;}
+.owl-carousel .owl-item{float: left;}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{cursor: pointer;}
+.owl-controls{-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+/* mouse grab icon*/
+.grabbing{cursor:url(../images/grabbing.png) 8 8, move;}
+/* fix*/
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item{-webkit-backface-visibility: hidden;-moz-backface-visibility: hidden;-ms-backface-visibility: hidden;-webkit-transform: translate3d(0,0,0);-moz-transform: translate3d(0,0,0);-ms-transform: translate3d(0,0,0);}
+
+*{margin:0;padding:0;list-style:none;border:none;}
+#owl-demo .owl-item{ padding:0.36rem 0; color:#999;}
+#owl-demo .item{ text-align:center; font-size:.78rem; box-sizing:border-box; line-height:1.5rem; border:1px solid #fff;}
+#owl-demo .owl-item.curr .item{ border:1px solid #f47920; background:#fff7f1; color:#f47920; border-radius:.1rem;}
